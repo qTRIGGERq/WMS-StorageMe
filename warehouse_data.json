@@ -1,0 +1,40 @@
+{
+  "products": {
+    "f55f439e": {
+      "id": "f55f439e",
+      "name": "Медный",
+      "quantity": 67,
+      "price": 67.0,
+      "category": "67",
+      "location": "67",
+      "created_at": "2026-05-14T19:36:33.952280",
+      "updated_at": "2026-05-14T19:37:02.678956"
+    }
+  },
+  "movements": [
+    {
+      "timestamp": "2026-05-14T19:32:59.229579",
+      "type": "ADD",
+      "product_id": "060d6f27",
+      "product_name": "Медный бычок",
+      "quantity": 1488,
+      "reason": "Начальный остаток"
+    },
+    {
+      "timestamp": "2026-05-14T19:35:59.535030",
+      "type": "DELETE",
+      "product_id": "060d6f27",
+      "product_name": "Медный бычок",
+      "quantity": 1488,
+      "reason": "Удаление товара"
+    },
+    {
+      "timestamp": "2026-05-14T19:36:33.952296",
+      "type": "ADD",
+      "product_id": "f55f439e",
+      "product_name": "Медный",
+      "quantity": 67,
+      "reason": "Начальный остаток"
+    }
+  ]
+}
