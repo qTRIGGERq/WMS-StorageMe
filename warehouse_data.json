@@ -1,40 +1,128 @@
 {
   "products": {
-    "f55f439e": {
-      "id": "f55f439e",
-      "name": "Медный",
-      "quantity": 67,
-      "price": 67.0,
-      "category": "67",
-      "location": "67",
-      "created_at": "2026-05-14T19:36:33.952280",
-      "updated_at": "2026-05-14T19:37:02.678956"
+    "p1001": {
+      "id": "p1001",
+      "name": "Ноутбук Lenovo ThinkPad L14",
+      "quantity": 15,
+      "price": 78900.0,
+      "category": "Компьютерная техника",
+      "location": "Стеллаж A-1 / Полка 2",
+      "created_at": "2026-09-01T10:00:00.000000",
+      "updated_at": "2026-09-20T14:30:00.000000"
+    },
+    "p1002": {
+      "id": "p1002",
+      "name": "Монитор Dell UltraSharp 27\"",
+      "quantity": 8,
+      "price": 42500.0,
+      "category": "Периферия",
+      "location": "Стеллаж A-2 / Полка 1",
+      "created_at": "2026-09-02T11:15:00.000000",
+      "updated_at": "2026-09-22T09:45:00.000000"
+    },
+    "p1003": {
+      "id": "p1003",
+      "name": "SSD NVMe Samsung 980 Pro 1TB",
+      "quantity": 4,
+      "price": 11200.0,
+      "category": "Комплектующие",
+      "location": "Сейф C-1 / Ячейка 4",
+      "created_at": "2026-09-05T12:00:00.000000",
+      "updated_at": "2026-09-25T16:20:00.000000"
+    },
+    "p1004": {
+      "id": "p1004",
+      "name": "Механическая клавиатура Keychron K2",
+      "quantity": 22,
+      "price": 8900.0,
+      "category": "Периферия",
+      "location": "Стеллаж B-1 / Полка 3",
+      "created_at": "2026-09-10T14:00:00.000000",
+      "updated_at": "2026-09-10T14:00:00.000000"
+    },
+    "p1005": {
+      "id": "p1005",
+      "name": "Патч-корд RJ45 UTP Cat.6 3м",
+      "quantity": 120,
+      "price": 350.0,
+      "category": "Сетевое оборудование",
+      "location": "Стеллаж D-3 / Ящик 12",
+      "created_at": "2026-09-12T09:30:00.000000",
+      "updated_at": "2026-09-18T11:10:00.000000"
     }
   },
   "movements": [
     {
-      "timestamp": "2026-05-14T19:32:59.229579",
+      "timestamp": "2026-09-01T10:00:00.000000",
       "type": "ADD",
-      "product_id": "060d6f27",
-      "product_name": "Медный бычок",
-      "quantity": 1488,
-      "reason": "Начальный остаток"
+      "product_id": "p1001",
+      "product_name": "Ноутбук Lenovo ThinkPad L14",
+      "quantity": 20,
+      "reason": "Первичное оприходование (Накладная № 104)"
     },
     {
-      "timestamp": "2026-05-14T19:35:59.535030",
-      "type": "DELETE",
-      "product_id": "060d6f27",
-      "product_name": "Медный бычок",
-      "quantity": 1488,
-      "reason": "Удаление товара"
+      "timestamp": "2026-09-02T11:15:00.000000",
+      "type": "ADD",
+      "product_id": "p1002",
+      "product_name": "Монитор Dell UltraSharp 27\"",
+      "quantity": 10,
+      "reason": "Первичное оприходование (Накладная № 105)"
     },
     {
-      "timestamp": "2026-05-14T19:36:33.952296",
+      "timestamp": "2026-09-05T12:00:00.000000",
       "type": "ADD",
-      "product_id": "f55f439e",
-      "product_name": "Медный",
-      "quantity": 67,
-      "reason": "Начальный остаток"
+      "product_id": "p1003",
+      "product_name": "SSD NVMe Samsung 980 Pro 1TB",
+      "quantity": 15,
+      "reason": "Первичное оприходование (Накладная № 108)"
+    },
+    {
+      "timestamp": "2026-09-10T14:00:00.000000",
+      "type": "ADD",
+      "product_id": "p1004",
+      "product_name": "Механическая клавиатура Keychron K2",
+      "quantity": 22,
+      "reason": "Первичное оприходование (Накладная № 112)"
+    },
+    {
+      "timestamp": "2026-09-12T09:30:00.000000",
+      "type": "ADD",
+      "product_id": "p1005",
+      "product_name": "Патч-корд RJ45 UTP Cat.6 3м",
+      "quantity": 150,
+      "reason": "Поступление от поставщика"
+    },
+    {
+      "timestamp": "2026-09-18T11:10:00.000000",
+      "type": "DECREASE",
+      "product_id": "p1005",
+      "product_name": "Патч-корд RJ45 UTP Cat.6 3м",
+      "quantity": 30,
+      "reason": "Отгрузка в IT-отдел филиала"
+    },
+    {
+      "timestamp": "2026-09-20T14:30:00.000000",
+      "type": "DECREASE",
+      "product_id": "p1001",
+      "product_name": "Ноутбук Lenovo ThinkPad L14",
+      "quantity": 5,
+      "reason": "Выдача сотрудникам разработки"
+    },
+    {
+      "timestamp": "2026-09-22T09:45:00.000000",
+      "type": "DECREASE",
+      "product_id": "p1002",
+      "product_name": "Монитор Dell UltraSharp 27\"",
+      "quantity": 2,
+      "reason": "Оснащение рабочих мест"
+    },
+    {
+      "timestamp": "2026-09-25T16:20:00.000000",
+      "type": "DECREASE",
+      "product_id": "p1003",
+      "product_name": "SSD NVMe Samsung 980 Pro 1TB",
+      "quantity": 11,
+      "reason": "Модернизация серверов виртуализации"
     }
   ]
 }
